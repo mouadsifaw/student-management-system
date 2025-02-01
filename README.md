@@ -1,7 +1,7 @@
 ---
 title: "Flask App Documentation"
 author: "Mouad Ait Khouya"
-date: "`r Sys.Date()`"
+date: "01-31-2025`"
 output: html_document
 ---
 
