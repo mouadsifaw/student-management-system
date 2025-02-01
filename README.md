@@ -2,7 +2,6 @@
 title: "Flask App Documentation"
 author: "Mouad Ait Khouya"
 date: "01-31-2025`"
-output: html_document
 ---
 
 ## Flask App Overview
