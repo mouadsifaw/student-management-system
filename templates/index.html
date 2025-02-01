@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Database</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Student Database</h1>
+    <ul>
+        <li><a href="{{ url_for('view_students') }}">View Students</a></li>
+        <li><a href="{{ url_for('add_student') }}">Add Student</a></li>
+    </ul>
+</body>
+</html>

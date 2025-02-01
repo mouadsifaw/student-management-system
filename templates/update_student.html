@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Update Student</h1>
+    <form method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{ student.Name }}" required><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" value="{{ student.Age }}" required><br><br>
+        <label for="grade">Grade:</label>
+        <input type="text" id="grade" name="grade" value="{{ student.Grade }}" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="{{ student.Email }}"><br><br>
+        <button type="submit">Update Student</button>
+    </form>
+    <br>
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>
