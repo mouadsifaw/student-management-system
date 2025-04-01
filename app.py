@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, flash  # A
 import mysql.connector
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Add a secret key for flash messages
 
 # Database configuration
 db_config = {
